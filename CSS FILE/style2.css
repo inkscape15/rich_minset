@@ -1,0 +1,30 @@
+body{ background:rgb(37, 158, 206);}
+.q{
+    width: 100px;
+    height: 100px;
+    background: red;  
+}
+.w{
+    width: 100px;
+    height: 100px;
+    background:red;  
+}
+.e{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.q{
+    flex-basis: 200px;
+}
+.w{
+    flex-basis: 200px;
+}
+.e{
+    flex-basis: 200px;
+}

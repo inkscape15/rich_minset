@@ -1,0 +1,49 @@
+
+ h1{
+    color:violet;
+    display: flex;
+    justify-content: center; 
+}
+ body{
+    background-image: url("../khams images/ey.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+ }
+.square1{
+    background-color: blue;
+}
+.square2{ 
+    background: red;
+}
+.square3{
+    background: green;
+}
+.square4{
+    background: yellow;
+}
+.square5{
+    background: black;
+    flex-basis: 200px;
+}
+.square6{
+    background: #ed7d31;
+}
+.square7{
+    background: #4f4a45;
+}
+.square8{
+    background: #6c5f5b;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction:row;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
